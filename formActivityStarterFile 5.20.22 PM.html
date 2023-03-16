@@ -38,6 +38,20 @@
 
 				<label for="myPhone">Phone<span class="required">*</span></label>
 				<input type="tel" id="myPhone" name="myPhone" autocomplete="tel" required>
+
+				<fieldset>
+					<legend>Preferred Contact Method<span class="requried">*</span></legend>
+					<input type="radio" name="contactPref" id="prefPhone" required>
+					<label for="prefPhone">Phone</label>
+					<input type="radio" name="contactPref" id="prefEmail" required>
+					<label for="prefEmail">Email</label>
+				</fieldset>
+
+				<label for="myState">State<span class="required">*</span></label>
+				<select name="myState" id="myState">
+					<option value="select">Select State</option>
+					<option value="AL">Alabama(AL)</option>
+				</select>
 			</form>
 		</article>
 	</main>
